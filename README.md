@@ -3,6 +3,17 @@ This repository contains my work as part of Study Oriented Projcet on Aerial Obj
 
 Important Links (for refernce)
 
+## Retinanet
+
+- Retinanet Paper: https://arxiv.org/pdf/1708.02002.pdf
+- Blog: https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/
+- https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
+
+## Feature Pyramid Network
+
+- https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610
+- https://arxiv.org/pdf/1612.03144.pdf
+
 ## Anchor Boxes
 
 - https://towardsdatascience.com/neural-networks-intuitions-5-anchors-and-object-detection-fc9b12120830
