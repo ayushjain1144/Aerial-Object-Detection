@@ -1,7 +1,7 @@
 # Aerial-Object-Detection
 This repository contains my work as part of Study Oriented Projcet on Aerial Object Detection
 
-Important Links (for refernce)
+Important Links (for reference)
 
 ## Retinanet
 
