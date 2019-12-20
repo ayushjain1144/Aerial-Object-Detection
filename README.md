@@ -34,3 +34,7 @@ Important Links (for reference)
 ## Retinanet Exemplar Implementation
 
 - https://medium.com/data-from-the-trenches/object-detection-with-deep-learning-on-aerial-imagery-2465078db8a9
+
+## Aiskyeye Dataset
+
+- https://arxiv.org/pdf/1804.07437.pdf
