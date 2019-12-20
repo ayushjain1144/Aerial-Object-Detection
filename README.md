@@ -30,3 +30,7 @@ Important Links (for reference)
 - https://towardsdatascience.com/instance-segmentation-using-mask-r-cnn-7f77bdd46abd
 - https://arxiv.org/pdf/1901.03353.pdf
 - https://www.youtube.com/watch?v=g7z4mkfRjI4
+
+## Retinanet Exemplar Implementation
+
+- https://medium.com/data-from-the-trenches/object-detection-with-deep-learning-on-aerial-imagery-2465078db8a9
