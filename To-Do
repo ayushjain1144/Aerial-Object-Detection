@@ -1,0 +1,8 @@
+For each annotation:
+
+1. Ignore the annotation having 0 or 11
+2. Subtract other annotations by 1
+3. Replace annotation number by its name using a dictionary
+4. append at the starting the path to image
+5. Extract name of the image through the name of the annotation file and adjust it to form the file path.
+6. add width to x1 and height to y1 to obtain x2, y2.
