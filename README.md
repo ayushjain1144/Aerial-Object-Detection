@@ -23,3 +23,10 @@ Important Links (for reference)
 ## Receptive Fields
 
 - https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
+
+## RetinaMask
+
+- https://blog.zenggyu.com/en/post/2019-01-07/beyond-retinanet-and-mask-r-cnn-single-shot-instance-segmentation-with-retinamask/#fnref1
+- https://towardsdatascience.com/instance-segmentation-using-mask-r-cnn-7f77bdd46abd
+- https://arxiv.org/pdf/1901.03353.pdf
+- https://www.youtube.com/watch?v=g7z4mkfRjI4
