@@ -6,3 +6,4 @@ For each annotation:
 4. append at the starting the path to image
 5. Extract name of the image through the name of the annotation file and adjust it to form the file path.
 6. add width to x1 and height to y1 to obtain x2, y2.
+7. Save as CSV
