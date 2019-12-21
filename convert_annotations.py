@@ -50,8 +50,8 @@ for file_name in train_annotations_list:
     for line in old_ann.readlines():
         #print('annotations.txt,', end='')
         img_name_base = file_name[:-3]
-        img_name = train_images + img_name_base +  'jpg'
-
+        img_name = train_images + '/' + img_name_base +  'jpg'
+        
         
         # some lines have , at end by mistake
         if line[-2] == ',':
@@ -59,6 +59,9 @@ for file_name in train_annotations_list:
             
         try:
             x1, y1, w, h,_,o,_,_ = line.split(sep=',')
+
+            if w == '0'  or h == '0':
+                continue
         
         except Exception as e:
             print(line)
@@ -87,8 +90,12 @@ for file_name in val_annotations_list:
     for line in old_ann.readlines():
         #print('annotations.txt,', end='')
         img_name_base = file_name[:-3]
-        img_name = val_images + img_name_base +  'jpg'
+        img_name = val_images + '/' + img_name_base +  'jpg'
+        
         x1, y1, w, h,_,o,_,_ = line.split(sep=',')
+
+        if w == '0'  or h == '0':
+                continue
 
         if o == '0' or o == '11':
             continue
