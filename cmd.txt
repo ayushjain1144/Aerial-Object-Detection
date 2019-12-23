@@ -1,0 +1,1 @@
+keras_retinanet/bin/train.py csv /media/ayushjain1144/New\ Linux/aerial-object-detection/Aerial-Object-Detection/aiskyeye_dataset/VisDrone2019-DET-train/annotations.csv /media/ayushjain1144/New\ Linux/aerial-object-detection/Aerial-Object-Detection/class_mapping.csv
