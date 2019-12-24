@@ -15,7 +15,7 @@ classes = {
 }
 
 
-base_dir = '/media/ayushjain1144/New Linux/aerial-object-detection/Aerial-Object-Detection/aiskyeye_dataset'
+base_dir = './aiskyeye_dataset'
 train_base_dir = os.path.join(base_dir, 'VisDrone2019-DET-train')
 val_base_dir = os.path.join(base_dir, 'VisDrone2019-DET-val')
 train_images = os.path.join(train_base_dir, 'images')
@@ -42,10 +42,13 @@ if not os.path.exists(os.path.join(val_base_dir, 'annotations_mod')):
 train_annotations_mod = os.path.join(train_base_dir, 'annotations_mod')
 val_annotations_mod = os.path.join(val_base_dir, 'annotations_mod')
 
+new_ann_train = open('annotations_train.csv', 'w')
+new_ann_val = open('annotations_val.csv', 'w')
+
 for file_name in train_annotations_list:
 
     old_ann = open(os.path.join(train_annotations, file_name), 'r')
-    new_ann = open(os.path.join(train_annotations_mod, file_name), 'w')
+    #new_ann = open(os.path.join(train_annotations_mod, file_name), 'w')
 
     for line in old_ann.readlines():
         #print('annotations.txt,', end='')
@@ -76,16 +79,17 @@ for file_name in train_annotations_list:
         
         #print(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
         #sys.exit()
-        new_ann.write(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
+        new_ann_train.write(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
 
-    new_ann.close()
+    #new_ann.close()
     old_ann.close()
 
+new_ann_train.close()
 
 for file_name in val_annotations_list:
 
     old_ann = open(os.path.join(val_annotations, file_name), 'r')
-    new_ann = open(os.path.join(val_annotations_mod, file_name), 'w')
+    #new_ann = open(os.path.join(val_annotations_mod, file_name), 'w')
 
     for line in old_ann.readlines():
         #print('annotations.txt,', end='')
@@ -108,7 +112,9 @@ for file_name in val_annotations_list:
         
         #print(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
         #sys.exit()
-        new_ann.write(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
+        new_ann_val.write(f'{img_name},{x1},{y1},{x2},{y2},{class_name}\n')
 
-    new_ann.close()
+    #new_ann.close()
     old_ann.close()
+
+new_ann_val.close()
