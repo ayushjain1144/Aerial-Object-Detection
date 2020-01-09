@@ -38,3 +38,7 @@ Important Links (for reference)
 ## Aiskyeye Dataset
 
 - https://arxiv.org/pdf/1804.07437.pdf
+
+## Vizdrone Paper
+ 
+- http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
