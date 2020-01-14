@@ -23,17 +23,17 @@ val_test_dev_dir = os.path.join(base_dir, 'Visdrone2019-DET-test-dev')
 
 train_images = os.path.join(train_base_dir, 'images')
 val_images = os.path.join(val_base_dir, 'images')
-val_test_challenge_images = os.path.join(val_test_challenge_dir, 'images')
+#val_test_challenge_images = os.path.join(val_test_challenge_dir, 'images')
 val_test_dev_images = os.path.join(val_test_dev_dir, 'images')
 
 train_annotations = os.path.join(train_base_dir, 'annotations')
 val_annotations = os.path.join(val_base_dir, 'annotations')
-val_test_challenge_annotations = os.path.join(val_test_challenge_dir, 'annotations')
+#val_test_challenge_annotations = os.path.join(val_test_challenge_dir, 'annotations')
 val_test_dev_annotations = os.path.join(val_test_dev_dir, 'annotations')
 
 train_annotations_list = sorted(os.listdir(train_annotations))
 val_annotations_list = sorted(os.listdir(val_annotations))
-val_test_challenge_annotations_list = sorted(os.listdir(val_test_challenge_annotations))
+#val_test_challenge_annotations_list = sorted(os.listdir(val_test_challenge_annotations))
 val_test_dev_annotations_list = sorted(os.listdir(val_test_dev_annotations))
 
 
@@ -48,8 +48,8 @@ if not os.path.exists(os.path.join(train_base_dir, 'annotations_mod')):
 if not os.path.exists(os.path.join(val_base_dir, 'annotations_mod')):
     os.makedirs(os.path.join(val_base_dir, 'annotations_mod'))
     
-if not os.path.exists(os.path.join(val_test_challenge_dir, 'annotations_mod')):
-    os.makedirs(os.path.join(val_test_challenge_dir, 'annotations_mod'))
+#if not os.path.exists(os.path.join(val_test_challenge_dir, 'annotations_mod')):
+#    os.makedirs(os.path.join(val_test_challenge_dir, 'annotations_mod'))
     
 if not os.path.exists(os.path.join(val_test_dev_dir, 'annotations_mod')):
     os.makedirs(os.path.join(val_test_dev_dir, 'annotations_mod'))
@@ -57,12 +57,12 @@ if not os.path.exists(os.path.join(val_test_dev_dir, 'annotations_mod')):
 
 train_annotations_mod = os.path.join(train_base_dir, 'annotations_mod')
 val_annotations_mod = os.path.join(val_base_dir, 'annotations_mod')
-val_test_challenge_annotations_mod = os.path.join(val_test_challenge_dir, 'annotations_mod')
+#val_test_challenge_annotations_mod = os.path.join(val_test_challenge_dir, 'annotations_mod')
 val_test_dev_annotations_mod = os.path.join(val_test_dev_dir, 'annotations_mod')
 
 new_ann_train = open('annotations_train.csv', 'w')
 new_ann_val = open('annotations_val.csv', 'w')
-new_ann_val_test_challenge = open('annotations_val_test_challenge.csv', 'w')
+#new_ann_val_test_challenge = open('annotations_val_test_challenge.csv', 'w')
 new_ann_val_test_dev = open('annotations_val_test_dev.csv', 'w')
 
 for file_name in train_annotations_list:
@@ -138,7 +138,7 @@ for file_name in val_annotations_list:
     old_ann.close()
 
 new_ann_val.close()
-
+"""
 for file_name in val_test_challenge_annotations_list:
 
     old_ann = open(os.path.join(val_test_challenge_annotations, file_name), 'r')
@@ -179,6 +179,8 @@ for file_name in val_test_challenge_annotations_list:
     old_ann.close()
 
 new_ann_val_test_challenge.close()
+"""
+
 
 for file_name in val_test_dev_annotations_list:
 
