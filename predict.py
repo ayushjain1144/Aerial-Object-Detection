@@ -26,7 +26,7 @@ ap.add_argument("-c", "--confidence", type=float, default=0.0, help="min probabi
 args = vars(ap.parse_args())
 
 LABELS = open(args["labels"]).read().strip().split('\n')
-LABELS = {int(L.split(",")[1]): L.split(",")[0] for L in Labels}
+LABELS = {int(L.split(",")[1]): L.split(",")[0] for L in LABELS}
 
 model = models.load_model(args["model"], backbone_name='resnet50')
 imagePaths = list(paths.list_images(args["input"]))
