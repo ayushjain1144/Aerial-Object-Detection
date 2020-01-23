@@ -3,6 +3,14 @@ This repository contains my work as part of my research work on Aerial Object De
 
 Important Links (for reference)
 
+## Prelimnary Results Visualisation
+
+This google drive contains the visualisation of the results. The first image is the ground truth and the second image is the one predicted. 
+
+- https://drive.google.com/drive/folders/1qDHQZwZl6wjk3jw0tQylNmMtPuU7UvtR
+
+Co-Credits: Rohit Ramaprasad
+
 ## Retinanet
 
 - Retinanet Paper: https://arxiv.org/pdf/1708.02002.pdf
