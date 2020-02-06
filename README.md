@@ -11,6 +11,10 @@ This google drive contains the visualisation of the results. The first image is 
 
 Co-Credits: Rohit Ramaprasad
 
+## Object Tracking
+
+- https://arxiv.org/pdf/1707.00569.pdf
+
 ## Retinanet
 
 - Retinanet Paper: https://arxiv.org/pdf/1708.02002.pdf
