@@ -58,3 +58,9 @@ Co-Credits: Rohit Ramaprasad
 ## Vizdrone Paper
  
 - http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
+
+## Loss Functions
+
+- https://www.ine.pt/revstat/pdf/rs070102.pdf
+- https://arxiv.org/pdf/1511.08861.pdf
+- https://mlblr.com/includes/mlai/index.html#yolov2
