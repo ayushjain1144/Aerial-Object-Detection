@@ -3,6 +3,22 @@ This repository contains my work as part of my research work on Aerial Object De
 
 Important Links (for reference)
 
+## Prelimnary Results Visualisation
+
+This google drive contains the visualisation of the results. The first image is the ground truth and the second image is the one predicted. 
+
+- https://drive.google.com/drive/folders/1qDHQZwZl6wjk3jw0tQylNmMtPuU7UvtR
+
+Results of various experiments (Visible, only for specific people)
+
+- https://docs.google.com/document/d/1FjJsk0fNVJlr2oqNx1Ptqanrh-WcJsh7rYIw1UFZnPQ/edit
+
+Co-Credits: Rohit Ramaprasad
+
+## Object Tracking
+
+- https://arxiv.org/pdf/1707.00569.pdf
+
 ## Retinanet
 
 - Retinanet Paper: https://arxiv.org/pdf/1708.02002.pdf
@@ -42,3 +58,9 @@ Important Links (for reference)
 ## Vizdrone Paper
  
 - http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
+
+## Loss Functions
+
+- https://www.ine.pt/revstat/pdf/rs070102.pdf
+- https://arxiv.org/pdf/1511.08861.pdf
+- https://mlblr.com/includes/mlai/index.html#yolov2
