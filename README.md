@@ -64,3 +64,10 @@ Co-Credits: Rohit Ramaprasad
 - https://www.ine.pt/revstat/pdf/rs070102.pdf
 - https://arxiv.org/pdf/1511.08861.pdf
 - https://mlblr.com/includes/mlai/index.html#yolov2
+
+## Feature Visualisation
+
+- https://buzzrobot.com/using-t-sne-to-visualise-how-your-deep-model-thinks-4ba6da0c63a0
+- https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030
+- https://ieeexplore.ieee.org/document/8402455
+- https://github.com/cvondrick/ihog
