@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ScanRefer: 3D Object Localization in RGB-DScans using Natural Language</title>
+    <title>DeepDroNeSt: AI-optimized Aerial Object Detection for IoT Applications</title>
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -19,67 +19,66 @@
 <div class="w3-container" id="paper">
     <div class="w3-content" style="max-width:850px">
   
-    <h2 align="center" id="title"><b>ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language</b></h2>
+    <h2 align="center" id="title"><b>DeepDroNeSt: AI-optimized Aerial Object Detection for IoT Applications</b></h2>
     <br/>
     <p align="center" class="center_text" id="authors">
-        <a target="_blank" href="http://www.niessnerlab.org/members/zhenyu_chen/profile.html">Dave Zhenyu Chen</a><sup>1</sup>
+        <a target="_blank" href="https://ayush-jain-2.jimdosite.com/">Ayush Jain</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank" href="https://angelxuanchang.github.io/">Angel X. Chang</a><sup>2</sup>
+        <a target="_blank" href="https://github.com/Gateway2745">Rohit Ramaprasad</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank" href="https://www.niessnerlab.org/members/matthias_niessner/profile.html">Matthias Nie&szlig;ner</a><sup>1</sup>
+        <a target="_blank" href="https://www.bits-pilani.ac.in/pilani/pratiknarang/profile">Dr. Pratik Narang</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
+        <a target="_blank" href="https://visionintelligence.github.io/Murari.html">Murari Mandal</a><sup>1</sup>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        
     </p>
 
     <p class="center_text" align="center">
-        <sup>1</sup>Technical University of Munich
+        <sup>1</sup>BITS PILANI
         &nbsp; &nbsp; &nbsp;
-        <sup>2</sup>Simon Fraser University
+        <sup>2</sup>LMNIT Jaipur
     </p>
 
-    <p align="center" id="title">European Conference on Computer Vision, 2020.</p>
+    <p align="center" id="title">Submitted for review</p>
 
     <br>
-        <p align="center" id="title"><b>Submit to our ScanRefer Localization Benchmark <a href="http://kaldir.vc.in.tum.de/scanrefer_benchmark/">here</a>!</b></p>
+        <!-- <p align="center" id="title"><b>Submit to our ScanRefer Localization Benchmark <a href="http://kaldir.vc.in.tum.de/scanrefer_benchmark/">here</a>!</b></p> -->
 
-        <br><center><a href="http://kaldir.vc.in.tum.de/scanrefer_benchmark/"><img src="teaser.png" style="max-width:100%" /></a></center><br>
+        <br><center><a href="https://github.com/ayushjain1144"><img src="teaser.png" style="max-width:100%" /></a></center><br>
         
         <h3 class="w3-left-align" id="video"><b>Introduction</b></h3>
         <p>
-            We introduce the task of 3D object localization in RGB-D scans using natural language descriptions.
-            As input, we assume a point cloud of a scanned 3D scene along with a free-form description of a specified target object.
-            To address this task, we propose ScanRefer, learning a fused descriptor from 3D object proposals and encoded sentence embeddings.
-            This fused descriptor correlates language expressions with geometric features, enabling regression of the 3D bounding box of a target object.
-            We also introduce the ScanRefer dataset, containing 51,583 descriptions of 11,046 objects from 800 ScanNet scenes. 
-            ScanRefer is the first large-scale effort to perform object localization via natural language expression directly in 3D.
+            This work proposes a novel deep learning approach which optimizes the detection of objects in aerial scenes captured by UAVs. In our setup, the power-constrained drone is used only for data collection, while the computationally intensive tasks are offloaded to a GPU edge server. Our work first categorises the current methods for aerial object detection using deep learning techniques and discusses how the task is different from general object detection scenarios. We delineate the specific challenges involved and experimentally demonstrate the key design decisions which significantly affect the accuracy and robustness of model. We further propose an optimized architecture which utilizes these optimal design choices along with the recent ResNeSt backbone in order to achieve superior performance in aerial object detection. Finally, we reflect on what we have achieved and further propose several shining directions of future work to inspire further research and advancement in aerial object detection.
         </p>
 
-        <h3 class="w3-left-align" id="video"><b>Video</b></h3>
-        <iframe width="850" height="480" src="https://www.youtube.com/embed/T9J5t-UEcNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  <h3 class="w3-left-align" id="video"><b>Video</b></h3>
+        <iframe width="850" height="480" src="https://www.youtube.com/embed/T9J5t-UEcNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
         <h3 class="w3-left-align" id="publication"><b>Publication</b></h3>
-        European Conference on Computer Vision (ECCV), 2020. <br/>
-        <a href="davezchen_eccv2020_scanrefer.pdf">Paper</a> | <a href="https://arxiv.org/abs/1912.08830">arXiv</a> | <a href="https://github.com/daveredrum/ScanRefer">Code</a>
+        Under Review. <br/>
+        <a href="https://github.com/ayushjain1144">Paper</a> | <a href="https://github.com/ayushjain1144">arXiv</a> | <a href="https://github.com/ayushjain1144">Code</a>
         <center>
-            <a href="davezchen_eccv2020_scanrefer.pdf"><img src="paper.jpg" style="max-width:100%" /></a>
+            <a href="https://github.com/ayushjain1144"><img src="paper.jpg" style="max-width:100%" /></a>
         </center><br>
 
         If you find our project useful, please consider citing us:
         <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 11px">
 
-@misc{chen2019scanrefer,
-    title={ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language},
-    author={Dave Zhenyu Chen and Angel X. Chang and Matthias Nießner},
-    year={2019},
-    eprint={1912.08830},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@misc{ayush2020DeepDroNest,
+    title={DeepDroNeSt: AI-optimized Aerial Object Detection for IoT Applications},
+    author={Ayush Jain, Rohit Ramaprasad, Dr. Pratik Narang, Murari Mandal},
+    year={2020},
 }
+    <!-- eprint={6666.6666}, -->
+    <!-- archivePrefix={arXiv}, -->
+    <!-- primaryClass={cs.CV} -->
+<!-- } -->
 
 </pre>
 
-        <h3 class="w3-left-align" id="dataset"><b>Dataset Download</b></h3>
+        <h3 class="w3-left-align" id="dataset"><b>Questions</b></h3>
 
-        If you would like to access to the ScanRefer dataset, please fill out the <a href="https://forms.gle/aLtzXN12DsYDMSXX6">ScanRefer Terms of Use Form</a>. Once your request is accepted, you will receive an email with the download link.
+        If you have some questions feel free to <a href="mailto: f20170093@pilani.bits-pilani.ac.in">email</a>. We will be happy to help!
 
     </div>
 
