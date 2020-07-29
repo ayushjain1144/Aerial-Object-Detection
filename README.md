@@ -1,5 +1,7 @@
 # Aerial-Object-Detection
-This repository contains my work as part of my research work on Aerial Object Detection
+This repository contains our research work on Aerial Object Detection.
+
+https://ayushjain1144.github.io/Aerial-Object-Detection/
 
 Important Links (for reference)
 
@@ -13,7 +15,7 @@ Results of various experiments (Visible, only for specific people)
 
 - https://docs.google.com/document/d/1FjJsk0fNVJlr2oqNx1Ptqanrh-WcJsh7rYIw1UFZnPQ/edit
 
-Co-Credits: Rohit Ramaprasad
+Credits: Rohit Ramaprasad
 
 ## Object Tracking
 
