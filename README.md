@@ -1,8 +1,6 @@
 # Aerial-Object-Detection
 This repository contains our research work on Aerial Object Detection.
 
-https://ayushjain1144.github.io/Aerial-Object-Detection/
-
 Important Links (for reference)
 
 ## Prelimnary Results Visualisation
