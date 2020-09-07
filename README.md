@@ -1,19 +1,9 @@
 # Aerial-Object-Detection
 This repository contains our research work on Aerial Object Detection.
 
-Important Links (for reference)
+# Instructions
 
-## Prelimnary Results Visualisation
-
-This google drive contains the visualisation of the results. The first image is the ground truth and the second image is the one predicted. 
-
-- https://drive.google.com/drive/folders/1qDHQZwZl6wjk3jw0tQylNmMtPuU7UvtR
-
-Results of various experiments (Visible, only for specific people)
-
-- https://docs.google.com/document/d/1FjJsk0fNVJlr2oqNx1Ptqanrh-WcJsh7rYIw1UFZnPQ/edit
-
-Credits: Rohit Ramaprasad
+# Nice Readings
 
 ## Object Tracking
 
