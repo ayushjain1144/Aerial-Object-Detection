@@ -3,6 +3,8 @@ This repository contains our research work on Aerial Object Detection.
 
 # Instructions
 
+To be updated soon!!
+
 # Nice Readings
 
 ## Object Tracking
