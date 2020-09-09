@@ -59,7 +59,11 @@ python detectron2-ResNeSt/tools/train_net.py --num-gpus <num_gpus> --config-file
 
 - https://arxiv.org/pdf/1804.07437.pdf
 
-## Vizdrone Paper
+## VisDrone2019 Paper
+ 
+- https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Du_VisDrone-DET2019_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ICCVW_2019_paper.pdf
+
+## VisDrone2018 Paper
  
 - http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
 
@@ -69,7 +73,7 @@ python detectron2-ResNeSt/tools/train_net.py --num-gpus <num_gpus> --config-file
 - https://arxiv.org/pdf/1511.08861.pdf
 - https://mlblr.com/includes/mlai/index.html#yolov2
 
-## Feature Visualisation
+## Feature Visualization
 
 - https://buzzrobot.com/using-t-sne-to-visualise-how-your-deep-model-thinks-4ba6da0c63a0
 - https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030
