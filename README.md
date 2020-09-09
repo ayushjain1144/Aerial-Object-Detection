@@ -3,7 +3,15 @@ This repository contains our research work on Aerial Object Detection.
 
 # Instructions
 
-To be updated soon!!
+To train RetinaNet with VGG16 or ResNet50 feature extractor : 
+```python
+python keras-retinanet/keras_retinanet/bin/train.py --gpu <gpu_id> --backbone <vgg16 | resnet50> --epochs <total_epochs> --tensorboard-dir <tensorboard_dir> --compute-val-loss --config <path_to_config> --snapshot-path <snapshot_save_dir> --random-transform --snapshot <resume_snapshot> csv <train_csv> <class_mapping_csv> --val-annotations <val_csv>
+```
+
+To train RetinaNet with ResNeSt50 feature extractor:
+```python
+python detectron2-ResNeSt/tools/train_net.py --num-gpus <num_gpus> --config-file <path_to_config>
+```
 
 # Nice Readings
 
