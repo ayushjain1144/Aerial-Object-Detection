@@ -1,6 +1,12 @@
 # Aerial-Object-Detection
 This repository contains our research work on Aerial Object Detection.
 
+# Introduction
+
+![alt text](https://github.com/ayushjain1144/Aerial-Object-Detection/blob/master/docs/teaser.png)
+
+This work proposes a novel deep learning approach which optimizes the detection of objects in aerial scenes captured by UAVs. In our setup, the power-constrained drone is used only for data collection, while the computationally intensive tasks are offloaded to a GPU edge server. Our work first categorises the current methods for aerial object detection using deep learning techniques and discusses how the task is different from general object detection scenarios. We delineate the specific challenges involved and experimentally demonstrate the key design decisions which significantly affect the accuracy and robustness of model. We further propose an optimized architecture which utilizes these optimal design choices along with the recent ResNeSt backbone in order to achieve superior performance in aerial object detection. Finally, we reflect on what we have achieved and further propose several shining directions of future work to inspire further research and advancement in aerial object detection.
+
 # Instructions
 
 To train RetinaNet with VGG16 or ResNet50 feature extractor : 
@@ -12,6 +18,10 @@ To train RetinaNet with ResNeSt50 feature extractor:
 ```python
 python detectron2-ResNeSt/tools/train_net.py --num-gpus <num_gpus> --config-file <path_to_config>
 ```
+
+# Citation
+
+Bibtex to be uploaded soon! 
 
 # Nice Readings
 
