@@ -1,7 +1,13 @@
 # Aerial-Object-Detection
 This repository contains our research work on Aerial Object Detection.
 
-# Instructions
+## Introduction
+
+![alt text](https://github.com/ayushjain1144/Aerial-Object-Detection/blob/master/docs/teaser.png)
+
+This work proposes a novel deep learning approach which optimizes the detection of objects in aerial scenes captured by UAVs. In our setup, the power-constrained drone is used only for data collection, while the computationally intensive tasks are offloaded to a GPU edge server. Our work first categorises the current methods for aerial object detection using deep learning techniques and discusses how the task is different from general object detection scenarios. We delineate the specific challenges involved and experimentally demonstrate the key design decisions which significantly affect the accuracy and robustness of model. We further propose an optimized architecture which utilizes these optimal design choices along with the recent ResNeSt backbone in order to achieve superior performance in aerial object detection. Finally, we reflect on what we have achieved and further propose several shining directions of future work to inspire further research and advancement in aerial object detection.
+
+## Instructions
 
 To train RetinaNet with VGG16 or ResNet50 feature extractor : 
 ```python
@@ -13,67 +19,71 @@ To train RetinaNet with ResNeSt50 feature extractor:
 python detectron2-ResNeSt/tools/train_net.py --num-gpus <num_gpus> --config-file <path_to_config>
 ```
 
-# Nice Readings
+## Citation
 
-## Object Tracking
+Bibtex to be uploaded soon! 
+
+## Nice Readings
+
+### Object Tracking
 
 - https://arxiv.org/pdf/1707.00569.pdf
 
-## Retinanet
+### Retinanet
 
 - Retinanet Paper: https://arxiv.org/pdf/1708.02002.pdf
 - Blog: https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/
 - https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4
 
-## RRNet
+### RRNet
 
 - Paper :       http://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Chen_RRNet_A_Hybrid_Detector_for_Object_Detection_in_Drone-Captured_Images_ICCVW_2019_paper.pdf
  
-## Feature Pyramid Network
+### Feature Pyramid Network
 
 - https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610
 - https://arxiv.org/pdf/1612.03144.pdf
 
-## Anchor Boxes
+### Anchor Boxes
 
 - https://towardsdatascience.com/neural-networks-intuitions-5-anchors-and-object-detection-fc9b12120830
 - https://medium.com/@andersasac/anchor-boxes-the-key-to-quality-object-detection-ddf9d612d4f9
 - https://www.youtube.com/watch?v=0frKXR-2PBY
 
-## Receptive Fields
+### Receptive Fields
 
 - https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
 
-## RetinaMask
+### RetinaMask
 
 - https://blog.zenggyu.com/en/post/2019-01-07/beyond-retinanet-and-mask-r-cnn-single-shot-instance-segmentation-with-retinamask/#fnref1
 - https://towardsdatascience.com/instance-segmentation-using-mask-r-cnn-7f77bdd46abd
 - https://arxiv.org/pdf/1901.03353.pdf
 - https://www.youtube.com/watch?v=g7z4mkfRjI4
 
-## Retinanet Exemplar Implementation
+### Retinanet Exemplar Implementation
 
 - https://medium.com/data-from-the-trenches/object-detection-with-deep-learning-on-aerial-imagery-2465078db8a9
 
-## Aiskyeye Dataset
+### Aiskyeye Dataset
 
 - https://arxiv.org/pdf/1804.07437.pdf
 
-## VisDrone2019 Paper
+### VisDrone2019 Paper
  
 - https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Du_VisDrone-DET2019_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ICCVW_2019_paper.pdf
 
-## VisDrone2018 Paper
+### VisDrone2018 Paper
  
 - http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
 
-## Loss Functions
+### Loss Functions
 
 - https://www.ine.pt/revstat/pdf/rs070102.pdf
 - https://arxiv.org/pdf/1511.08861.pdf
 - https://mlblr.com/includes/mlai/index.html#yolov2
 
-## Feature Visualization
+### Feature Visualization
 
 - https://buzzrobot.com/using-t-sne-to-visualise-how-your-deep-model-thinks-4ba6da0c63a0
 - https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030
