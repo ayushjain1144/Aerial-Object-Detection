@@ -19,7 +19,7 @@
 <div class="w3-container" id="paper">
     <div class="w3-content" style="max-width:850px">
   
-    <h2 align="center" id="title"><b>AI-enabled Object Detection in Unmanned Aerial Vehicles for Edge Computing Applications</b></h2>
+    <h2 align="center" id="title"><b>AI-enabled Object Detection in UAVs: Challenges, Design Choices, and Research Directions</b></h2>
     <br/>
     <p align="center" class="center_text" id="authors">
         <a target="_blank" href="https://ayushjain1144.github.io/">Ayush Jain*</a><sup>1</sup>
@@ -28,9 +28,9 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a target="_blank" href="https://www.bits-pilani.ac.in/pilani/pratiknarang/profile">Dr. Pratik Narang</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank" href="https://visionintelligence.github.io/Murari.html">Murari Mandal</a><sup>1</sup>
+        <a target="_blank" href="https://visionintelligence.github.io/Murari.html">Dr. Murari Mandal</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a target="_blank" href="https://www.bits-pilani.ac.in/pilani/vinaychamola/profile">Vinay Chamola</a><sup>1</sup>
+        <a target="_blank" href="https://www.bits-pilani.ac.in/pilani/vinaychamola/profile">Dr. Vinay Chamola</a><sup>1</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a target="_blank" href="https://www.csit.carleton.ca/~fyu/">F. Richard Yu</a><sup>2</sup>
         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -48,7 +48,9 @@
         <sup>3</sup>Qatar University
     </p>
 
-    <p align="center" id="title">Submitted for review</p>
+    <p align="center" id="title">IEEE Network</p>
+
+    <p align="center" id="title">The authors are grateful to IBM for providing online access to the Power9 AC922 GPU server.</p>
 
     <br>
         <!-- <p align="center" id="title"><b>Submit to our ScanRefer Localization Benchmark <a href="http://kaldir.vc.in.tum.de/scanrefer_benchmark/">here</a>!</b></p> -->
@@ -57,32 +59,29 @@
         
         <h3 class="w3-left-align" id="video"><b>Introduction</b></h3>
         <p>
-            This work proposes a novel deep learning approach which optimizes the detection of objects in aerial scenes captured by UAVs. In our setup, the power-constrained drone is used only for data collection, while the computationally intensive tasks are offloaded to a GPU edge server. Our work first categorises the current methods for aerial object detection using deep learning techniques and discusses how the task is different from general object detection scenarios. We delineate the specific challenges involved and experimentally demonstrate the key design decisions which significantly affect the accuracy and robustness of model. We further propose an optimized architecture which utilizes these optimal design choices along with the recent ResNeSt backbone in order to achieve superior performance in aerial object detection. Finally, we reflect on what we have achieved and further propose several shining directions of future work to inspire further research and advancement in aerial object detection.
+            Unmanned Aerial Vehicles (UAVs) are emerging as a powerful tool for various industrial and smart city applications. The UAVs coupled with various sensors can perform many cognitive tasks such as object detection, surveillance, traffic management, and urban planning. Deep learning has emerged as a popular technique to speed up the processing of high dimensional data like images and videos which has led to several applications in surveillance and autonomous driving. However, the area of aerial object detection has been understudied. This work proposes a deep learning approach for detection of objects in aerial scenes captured by UAVs. Our work first categorizes the current methods for aerial object detection using deep learning techniques and discusses how the task is different from general object detection scenarios. We delineate the specific challenges involved and experimentally demonstrate the key design decisions which significantly affect the accuracy and robustness of models. We further propose an optimized architecture which utilizes these optimal design choices along with the recent ResNeSt backbone to achieve superior performance in aerial object detection. Lastly, we propose several research directions to inspire further advancement in aerial object detection.
         </p>
 
        <!--  <h3 class="w3-left-align" id="video"><b>Video</b></h3>
         <iframe width="850" height="480" src="https://www.youtube.com/embed/T9J5t-UEcNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
         <h3 class="w3-left-align" id="publication"><b>Publication</b></h3>
-        Under Review. <br/>
-        <a href="https://github.com/ayushjain1144">Paper</a> | <a href="https://github.com/ayushjain1144">arXiv</a> | <a href="https://github.com/ayushjain1144">Code</a>
+        IEEE Network. <br/>
+        <a href="https://www.researchgate.net/publication/350165151_AI-enabled_Object_Detection_in_UAVs_Challenges_Design_Choices_and_Research_Directions">Paper</a> |  <a href="https://github.com/ayushjain1144/Aerial-Object-Detection">Code</a>
         <center>
-            <a href="https://github.com/ayushjain1144"><img src="paper.jpg" style="max-width:100%" /></a>
+            <a href="https://www.researchgate.net/publication/350165151_AI-enabled_Object_Detection_in_UAVs_Challenges_Design_Choices_and_Research_Directions"><img src="paper.jpg" style="max-width:100%" /></a>
         </center><br>
 
         If you find our project useful, please consider citing us:
         <pre class="w3-panel w3-leftbar w3-light-grey" style="white-space: pre-wrap; font-family: monospace; font-size: 11px">
 
-@misc{ayush2020DeepDroNest,
-    title={DeepDroNeSt: AI-optimized Aerial Object Detection for IoT Applications},
-    author={Ayush Jain, Rohit Ramaprasad, Pratik Narang, Murari Mandal, Vinay Chamola},
-    year={2020},
+@article{jain2021a,
+  author = {Jain, A. and Ramprasad, R. and Narang, P. and Mandal, M. and Chamola, V. and Yu, F.Richard and Guizani, M.},
+  title = {AI-enabled Object Detection in UAVs: Challenges, Design Choices, and Research Directions"},
+  date = {2021-03},
+  language = {en},
+  journal = {IEEE Network}
 }
-    <!-- eprint={6666.6666}, -->
-    <!-- archivePrefix={arXiv}, -->
-    <!-- primaryClass={cs.CV} -->
-<!-- } -->
-
 </pre>
 
         <h3 class="w3-left-align" id="dataset"><b>Questions</b></h3>
